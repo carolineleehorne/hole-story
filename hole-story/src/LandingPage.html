@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hole Story</title>
+    <link rel="stylesheet" href="css/landing-page-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-landing-page">
+            <img class="landing-page-pic" src="images/car.jpg" alt="Car Image">
+        </div>
+
+        <div class="right-landing-page">
+            <p id="zero">&#183;&#160;Hole Story&#160;&#183;</p>
+            <p id="one">Reporting Potholes &#183; Restoring Roads</p>
+            <p id="two">Sign up today!</p>
+
+            <div class="sign-up-container">
+                <form id="registerForm">
+                    <div class="flex-container">
+                        <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+                        <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+                    </div>
+            
+                    <div class="flex-container">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+            
+                    <div class="flex-container">
+                        <input type="text" id="username" name="username" placeholder="Username" required>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+            
+                    <button type="submit">Register</button>
+
+                    <p id="haveAccountText" style="display: block;">
+                        <span class="signup-text">Already have an account?</span>
+                        <a href="#" class="signin-link" onclick="toggleForms('loginForm')">Sign in here!</a>
+                    </p>
+
+                </form>
+
+                <form id="loginForm" style="display: none;">
+                    <div class="flex-container">
+                        <input type="text" id="login_username" name="login_username" placeholder="Username" required>
+                        <input type="password" id="login_password" name="login_password" placeholder="Password" required>
+                    </div>
+            
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+            <p id="dontHaveAccountText" style="display: none;">
+                <span class="signup-text">Don't have an account?</span>
+                <a href="#" class="signin-link" onclick="toggleForms('registerForm')">Sign up here!</a>
+            </p>
+                
+        </div>
+    </div>
+
+        <script src="js/landing-script.js"></script>
+    </body>
+</html>

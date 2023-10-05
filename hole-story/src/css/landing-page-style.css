@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(206, 233, 255);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.left-landing-page {
+    flex: 1;
+    padding: 50px;
+}
+
+.right-landing-page {
+    flex: 1;
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page-pic {
+    width: 100%;
+    height: auto;
+}
+
+#zero{
+    font-family: 'Young Serif', serif;
+    font-size: 70px;
+}
+
+#one{
+    font-family: 'Young Serif', serif;
+    font-size: 45px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#two{
+    font-family: 'Young Serif', serif;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.right-landing-page p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.right-landing-page .sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.right-landing-page .sign-up-container form {
+    width: 600px;
+}
+
+.right-landing-page .sign-up-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.right-landing-page .sign-up-container .flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.right-landing-page .sign-up-container .flex-container input {
+    flex: 1;
+    padding: 15px;
+    margin: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+.right-landing-page .sign-up-container button {
+    padding: 15px 30px;
+    background-color: #1d4786;
+    color: #fff;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    justify-content: center;
+    margin: 20px auto;
+    margin-bottom: 60px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.right-landing-page .sign-up-container button:hover {
+    background-color: #4e85d8;
+}
+
+.right-landing-page .sign-up-container button:active {
+    background-color: #21df1a;
+    color: black;
+}
+
+.right-landing-page .signup-text {
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+.right-landing-page .signin-link {
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    color: #ff3535;
+    text-decoration: none;
+}
+
+.right-landing-page .signin-link:hover {
+    color: #ff8989;
+}
+
+.right-landing-page .signin-link:active {
+    color: #21df1a;
+}
