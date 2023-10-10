@@ -19,7 +19,7 @@ Hole Story is a web application dedicated to making roads safer by facilitating 
 
 ## Technical Stack
 
-Frontend: Vue.
-Routing: Vue Router
-Backend: Java
-Database: PostgreSQL
+- Frontend: Vue
+- Routing: Vue Router
+- Backend: Java
+- Database: PostgreSQL
