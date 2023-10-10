@@ -1,0 +1,61 @@
+.setup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(206, 233, 255);
+}
+
+.username-section {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+
+input[type="text"], input[type="file"] {
+  padding: 15px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  font-size: 22px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.available, .not-available {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.available {
+  color: #21df1a; /* Green for available */
+}
+
+.not-available {
+  color: #ff3535; /* Red for not available */
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #1d4786;
+  color: #fff;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 22px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #4e85d8;
+}
+
+button:active {
+  background-color: #21df1a;
+  color: black;
+}
